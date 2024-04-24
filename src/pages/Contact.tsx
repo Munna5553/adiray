@@ -103,7 +103,7 @@ export default function Contact() {
                   Sent.
                 </span>
               </div>
-              <div className="w-[431px] text-center text-gray-900 text-xl font-normal mt-2 ">
+              <div onClick={() => setSentMsg(!sentMsg)} className="w-[431px] text-center text-gray-900 text-xl font-normal mt-2 ">
                 We will connect with you shortly
               </div>
             </>
@@ -173,7 +173,7 @@ export default function Contact() {
                       Address
                     </div>
                     <div className="w-[100%] text-slate-600 text-xs font-semibold ">
-                      D 1807, Shriram Greenfield, Bommenahalli, Bangalore 560049
+                      D 1807, Shriram Greenfield, Bommenahalli, Bangalore, 560049
                     </div>
                   </div>
                 </div>
